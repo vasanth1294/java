@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class valid{
+public static void main(string args[]){
+Scanner word=new scanner(system.in);
+System.out.println("enter the word 1:");
+string a=word.nextLine();
+System.out.println("enter the word 2:");
+string b=word.nextLine();
+if(a==b){
+system.out.println("valid");
+}
+else{
+system.out.println("invalid");
+}
+}
+}
