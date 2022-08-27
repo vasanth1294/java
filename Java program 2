@@ -1,0 +1,25 @@
+2.import java.util.Scanner;
+public class main{
+public static void main(String args[]){
+int days;
+int mon
+Scanner obj=new Scanner(System.in);
+System.out.println("enter the no of days : ");
+days=obj.nextInt();
+int yr=days/365;
+System.out.println("YEARS : "+yr);
+yr=days%365;
+int wk=yr/7;
+if(wk>=4){
+mon=wk/4;
+wk=mon-wk;
+}
+else if(wk<4)
+mon=0;
+}
+System.out.println("MONTHS : "+mon);
+System.out.println("WEEKS: "+wk);
+int day=yr%7;
+System.out.println("DAYS : "+day);
+}
+}
